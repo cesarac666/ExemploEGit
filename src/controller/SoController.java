@@ -7,6 +7,7 @@ public class SoController {
 	}
 
 	public String os() {
+		// retorno o tipo de sistema ( linux, windows, etc )
 		return System.getProperty("os.name");
 		
 	}
